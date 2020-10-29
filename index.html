@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script defer src="/js/app.js"></script>
+    <title>SB News</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./appleti.png">
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="./32.png">
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="./16.png">
+    <link rel="manifest" href="./site.webmanifest">
+</head>
+<body>
+    <div class="background">
+        <video src="./1080_Silver_white_sparkles_loop_Videvo.mov" autoplay muted loop></video>
+    </div>
+    <header>
+        <div class="top-bar flexed">
+            <div>
+                <!-- hamburger -->
+            </div>
+            <form onsubmit="url_search()">
+                <!-- search input -->
+                <input type="search" name="the-search" id="text-here" placeholder="SEARCH">
+                <input type="submit" value="GO">
+            </form>
+            <div>
+                <!-- center language change -->
+
+            </div>
+            <div class="credentials">
+                <!-- right side float -->
+                <button>SUBSCRIBE NOW</button>
+                <button>LOG IN</button>
+            </div>
+        </div>
+        <div id="dater">
+            <!-- date -->
+        </div>
+        <a onclick="reset_button('matrix')">
+            <h1 class="ctr">SB News</h1>
+        </a>
+        <hr>
+        <nav class="">
+            <a href="#" onclick="url_change('world')">World</a>
+            <a href="#" onclick="url_change('nation')">U.S.</a>
+            <a href="#" id="one" onclick="linethrough(0)">Politics</a>
+            <a href="#" id="two" onclick="linethrough(1)">N.Y.</a>
+            <a href="#" onclick="url_change('business')">Business</a>
+            <a href="#" id="three" onclick="linethrough(2)">Opinion</a>
+            <a href="#" onclick="url_change('technology')">Tech</a>
+            <a href="#" onclick="url_change('science')">Science</a>
+            <a href="#" onclick="url_change('health')">Health</a>
+            <a href="#" onclick="url_change('sports')">Sports</a>
+            <a href="#" onclick="url_change('entertainment')">Arts</a>
+            <a href="#" onclick="url_change('entertainment')">Books</a>
+            <a href="#" id="four" onclick="linethrough(3)">Style</a>
+            <a href="#" id="five" onclick="linethrough(4)">Food</a>
+            <a href="#" id="six" onclick="linethrough(5)">Travel</a>
+            <a href="#" id="seven" onclick="linethrough(6)">Magazine</a>
+            <a href="#" id="eight" onclick="linethrough(7)">Real Estate</a>
+            <a href="#" id="nine" onclick="linethrough(8)">Video</a>
+            <a href="#" id="ten" onclick="linethrough(9)">Random</a>
+        </nav>
+        <hr>
+        <div class="banner ctr">
+            <img src="./https___blogs-images.forbes.com_josephliu_files_2019_06_10-ferdinand-stohr-149422-unsplash-1200x298.jpg" alt="ad" class="ctr">
+        </div>
+        <hr>
+        <hr>
+    </header>
+    <main id="main">
+        <div class="main-left" id="problem-child">
+            <section id="headline" class="big-cheese">
+        
+            </section>
+            <hr>
+            <section id="cards" class="lil-cheese">
+            </section>
+        </div>
+        <aside id="deck" class="main-right">
+            <section id="double-decker" class="big-cheese">
+
+            </section>
+        </aside>
+    </main>
+    <footer class="ctr">
+        <p>Copyright &copy; All Rights Reserved 2020 SBNews</p>
+    </footer>
+</body>
+</html>
