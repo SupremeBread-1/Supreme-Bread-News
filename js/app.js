@@ -2,8 +2,8 @@
 
 var d = new Date();
 document.getElementById('dater').innerHTML = d;
-api_key = 'db9d8712c5ebef8be66f7905354d165a';
-// api_key = '6224f354ea4e750144c51e8c3a9aec24';
+// api_key = 'db9d8712c5ebef8be66f7905354d165a';
+api_key = '6224f354ea4e750144c51e8c3a9aec24';
 // api_key = '6b19f0b4ce7006ae0dfa2c3b43528663';
 // dead // api_key = 'ecdc6e25ad145c6854edc3c04e32f4eb';
 // dead // api_key = '87a75157c6580dd16ae12c3fab51e1ea';
@@ -417,3 +417,16 @@ function crud (a,b,c) {
 
     
 }
+
+
+
+
+{/* <a href="${newsBig.url}" target="_blank">
+<article data-url="${newsBig.url}" class="crumbs">
+    <h3 class="ctr">${newsBig.title}</h3>
+    <br>
+    <img class="ctr" src="${newsBig.image}" alt="${newsBig.title}">
+    <br>
+    <p class="ctr" >${newsBig.description}</p>
+</article>
+</a> */}

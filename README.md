@@ -8,3 +8,12 @@ The website for all your news needs
 <li>jQuery</li>
 <li>GNews API</li>
 <li>Google Fonts</li>
+
+## Screenshots
+
+### Wireframe :
+
+## Getting Started
+
+## Future Enhancements
+
